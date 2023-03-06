@@ -40,7 +40,7 @@ namespace Mission9.Infrastructure
 
             TagBuilder result = new TagBuilder("div");
 
-            for (int i = 1; i < PageModel.TotalBooks; i++)
+            for (int i = 1; i <= PageModel.TotalBooks; i++)
             {
                 TagBuilder tb = new TagBuilder("a");
 
