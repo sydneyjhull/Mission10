@@ -29,7 +29,7 @@ namespace Mission9.Infrastructure
 
         public PageInfo PageModel { get; set; }
         public string PageAction { get; set; }
-        public bool PageClassesEnabled { get; set; } = false;
+        public bool PageClassesEnabled { get; set; }
         public string PageClass { get; set; }
         public string PageClassNormal { get; set; }
         public string PageClassSelected { get; set; }
