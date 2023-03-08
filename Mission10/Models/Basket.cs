@@ -32,7 +32,6 @@ namespace Mission9.Models
         public double CalculateTotal()
         {
             double sum = Items.Sum(books => books.Quantity * books.Book.Price);
-
             return sum;
         }
     }
