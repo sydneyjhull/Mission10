@@ -20,5 +20,6 @@ namespace Mission9.Models
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<Payment> Payments { get; set; }
     }
 }
